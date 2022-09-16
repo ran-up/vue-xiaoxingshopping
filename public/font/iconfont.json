@@ -1,0 +1,23 @@
+{
+  "id": "3556823",
+  "name": "尚品汇",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2076428",
+      "name": "向上箭头粗小",
+      "font_class": "shangjiantou",
+      "unicode": "e8d8",
+      "unicode_decimal": 59608
+    },
+    {
+      "icon_id": "30958939",
+      "name": "向上箭头粗小-copy",
+      "font_class": "xiajiantou",
+      "unicode": "e8d9",
+      "unicode_decimal": 59609
+    }
+  ]
+}
