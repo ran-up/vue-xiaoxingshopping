@@ -18,10 +18,18 @@ import 'swiper/css/swiper.css'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import { Input, Checkbox, Form } from 'element-ui';
+import VueLazyLoad from 'vue-lazyload'
+import loadImg from '@/assets/load.png'
 Vue.use(ElementUI);
 Vue.use(Input);
 Vue.use(Checkbox);
 Vue.use(Form);
+Vue.use(VueLazyLoad, {
+  preLoad: 1.3, //预加载的宽高比
+  // 懒加载默认图片
+  loading: loadImg,
+  attempt: 1, // 加载错误后最大尝试次数
+})
 
 
 // 测试统一管理接口
